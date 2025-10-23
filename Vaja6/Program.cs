@@ -10,6 +10,7 @@ namespace vaja6 {
         public string u_geslo;
         public static int stIg = 1;
 
+        //neki podatki//
         public Igralec() {
             u_ime = "";
             u_geslo = "";
@@ -17,6 +18,7 @@ namespace vaja6 {
             stIg++;
         }
 
+        //pridobi id//
         public int Id {
             get
             {
@@ -24,6 +26,7 @@ namespace vaja6 {
             }
         }
 
+        //pridobi ime//
         public string U_ime {
             get
             {
@@ -35,6 +38,7 @@ namespace vaja6 {
             }
         }
 
+        //pridobi geslo//
         public string U_geslo
         {
             get
@@ -47,6 +51,7 @@ namespace vaja6 {
             }
         }
 
+        //ne vem kaj je to//
         public static int StIg
         {
             get { return stIg; }
